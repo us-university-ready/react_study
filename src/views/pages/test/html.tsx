@@ -5,9 +5,10 @@ const html = ({ counter, textview }: { counter: string, textview: string }) => `
     </head>
     <body style="margin:0">
       <div id="counter">${counter}</div>
-      <div id="sample">${textview}</div>
+      <div id="textview">${textview}</div>
     </body>
     <script src="js/counter.js" defer></script>
+    <script src="js/textview.js" defer></script>
   </html>
 `;
 

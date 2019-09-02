@@ -5,5 +5,5 @@ import TextView from "./TextView";
 
 ReactDOM.hydrate(
     <TextView compiler="TypeScript" framework="Express" library="React" />,
-    document.getElementById("counter")
+    document.getElementById("textview")
 );
