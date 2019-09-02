@@ -1,11 +1,11 @@
-const html = ({ counter, sample }: { counter: string, sample: string }) => `
+const html = ({ counter, textview }: { counter: string, textview: string }) => `
   <!DOCTYPE html>
   <html>
     <head>
     </head>
     <body style="margin:0">
       <div id="counter">${counter}</div>
-      <div id="sample">${sample}</div>
+      <div id="sample">${textview}</div>
     </body>
     <script src="js/counter.js" defer></script>
   </html>

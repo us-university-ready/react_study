@@ -3,7 +3,7 @@ const path = require("path");
 module.exports = {
     entry: {
         counter: "./src/views/components/counter/index.tsx",
-        sample: "./src/views/components/sample/index.tsx"
+        textview: "./src/views/components/TextView/index.tsx"
     },
     output: {
         filename: "js/[name].js",
